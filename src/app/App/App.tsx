@@ -1,6 +1,6 @@
 import { Navigate, Routes, Route } from "react-router-dom";
 
-import { Vacancies, VacancyPage, NotFound } from "../../pages";
+import { Vacancies, AboutPage, VacancyPage, NotFound } from "../../pages";
 import { Layout } from "../../shared";
 
 export const App = () => {
@@ -8,7 +8,12 @@ export const App = () => {
     <>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Navigate to="vacancies" replace />} />
+          <Route index element={<Navigate to="/vacancies/moscow" replace />} />
+          <Route
+            path="vacancies"
+            element={<Navigate to="/vacancies/moscow" replace />}
+          />
+          <Route path="about" element={<AboutPage />} />
           <Route path="vacancies/:city" element={<Vacancies />} />
           <Route path="vacancies/:city/:id" element={<VacancyPage />} />
           <Route path="*" element={<NotFound />} />

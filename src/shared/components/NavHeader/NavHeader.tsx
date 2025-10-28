@@ -21,12 +21,12 @@ export const NavHeader = () => {
           </Link>
         </li>
         <li className={styles["nav-menu__item"]}>
-          <a
-            href="#"
+          <Link
+            to="/about"
             className={`${styles["nav-menu__link"]} ${styles["nav-menu__link--about-me"]}`}
           >
             Обо мне
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>
