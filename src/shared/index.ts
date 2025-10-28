@@ -6,3 +6,4 @@ export * from "./components/VacancyCard/VacancyCard";
 export * from "./components/LoaderUI/LoaderUI";
 export * from "./components/NoResults/NoResults";
 export * from "./components/Layout/Layout";
+export * from "./components/ActiveHeaderLink/ActiveHeaderLink";
