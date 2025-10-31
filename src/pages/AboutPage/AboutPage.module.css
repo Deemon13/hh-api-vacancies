@@ -1,0 +1,63 @@
+.about__container {
+  margin: 0 auto;
+  max-width: 660px;
+  padding: 24px;
+  border-radius: 12px;
+
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.about__title {
+  margin-top: 0;
+  margin-bottom: 12px;
+
+  font-size: 26px;
+  line-height: 1.35;
+  letter-spacing: 0;
+  font-weight: 700;
+}
+
+.about__descr {
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+.about__subtitle {
+  margin-top: 0;
+  margin-bottom: 12px;
+
+  text-align: left;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0;
+  font-weight: 600;
+}
+
+.about__sentences {
+  margin-top: 0;
+  margin-bottom: 12px;
+  padding: 0;
+  list-style: none;
+
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+.about__skills {
+  margin-bottom: 12px;
+}
+
+.about__links {
+  width: 350px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
